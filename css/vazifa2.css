@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(116, 176, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 176, 226, 1) 4%,
+    rgba(153, 93, 183, 1) 100%
+  );
+}
+
+form {
+  background-color: white;
+  width: 700px;
+  height: 700px;
+  margin: 200px auto;
+  border-radius: 10px;
+}
+
+.input__type {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.form__end {
+  width: 300px;
+  height: 55px;
+  border: 2px solid darkgray;
+  box-shadow: 1px 2px 1px darkgray;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.form__end::placeholder {
+  font-size: 18px;
+}
+
+.txt {
+  position: relative;
+  bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input h1 {
+  padding: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.bordr {
+  border-bottom: red;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+  margin-right: 10;
+}
+
+.form__radioe {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(125, 125, 125);
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+.btn-gradd {
+  background-image: linear-gradient(
+    to right,
+    #003973 0%,
+    #e5e5be 51%,
+    #003973 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-gradd {
+  background-image: linear-gradient(
+    to right,
+    #003973 0%,
+    #e5e5be 51%,
+    #590c94 100%
+  );
+}
+.btn-gradd {
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  padding: 25px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1.5s;
+  background-size: 200% auto;
+  color: rgb(8, 104, 72);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 20px;
+  display: block;
+  font-weight: 600;
+  text-decoration: none;
+  width: 70%;
+  font-size: 25px;
+}
+
+.btn-gradd:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
